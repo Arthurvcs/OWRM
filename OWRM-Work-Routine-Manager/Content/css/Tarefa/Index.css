@@ -1,0 +1,170 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+svg {
+    margin-left: 10px;
+}
+
+.sem_dados {
+    font-size: 72px;
+    letter-spacing: 6px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto 0 auto;
+    padding-top: 10vh;
+    color: darkgray;
+    padding-bottom: 10vh;
+}
+
+.row {
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+}
+
+.datas {
+    position: relative;
+    bottom: 50px;
+    margin-top: 9vh;
+}
+
+.barra_superior {
+    background-color: #f3f0f1;
+}
+
+.barra_superior span {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+
+.container-fluid {
+    /*background-color: #f7f7f7ab;*/
+    background-color: #f7f7f7;
+}
+
+.ehobrigatorio {
+    color: red;
+}
+
+.card-title {
+    /*border-bottom: 1px solid rgba(10,10,10,0.1);*/
+    border-bottom: 1px solid rgb(10,10,10);
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.card_bottom_buttons {
+    margin-top: 15px;
+}
+
+.nota {
+    margin: 2%;
+}
+
+.btn_iniciar {
+    width: 212px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    border: none;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    margin-left: 30px;
+    background-color: #f5f5f5;
+}
+
+.btn_iniciar svg {
+    width: 10px;
+}
+
+.card {
+    height: fit-content;
+}
+
+.btn_iniciar:hover {
+    background-color: #2EE59D;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn_finalizar {
+    width: 65px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    border: none;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.btn_finalizar svg {
+    width: 10px;
+}
+
+.btn_finalizar:hover {
+    background-color: darkred;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn_tarefas {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+    background-color: #05478e;
+    border-color: #5d8abb;
+}
+
+.btn_excluir {
+    float: right;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.btn_excluir svg {
+    height: 18px;
+    cursor: pointer;
+}
+
+.btn_editar {
+    float: right;
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.btn_editar svg {
+    height: 18px;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

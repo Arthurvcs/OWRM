@@ -1,0 +1,25 @@
+﻿body {
+    background-color: #45969b;
+}
+
+.row {
+    text-align: center;
+    /*margin-top: 15vh;*/
+}
+
+p {
+    font-size: 29px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 8vh;
+}
+
+li {
+    font-size: 22px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul li::before {
+    color: wheat;
+}

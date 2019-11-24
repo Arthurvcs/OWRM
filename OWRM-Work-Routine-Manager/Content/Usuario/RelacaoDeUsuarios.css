@@ -1,0 +1,20 @@
+﻿body {
+    background-color: white;
+}
+
+.btn btn-success {
+    color: white;
+}
+
+.table table-bordered {
+    background-color: white;
+}
+
+#breadcrumb {
+    margin-top: 10px;
+}
+
+.table table-bordered {
+    background-color: black;
+    color: white;
+}

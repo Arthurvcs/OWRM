@@ -1,0 +1,180 @@
+﻿@model IEnumerable<OWRM_Work_Routine_Manager.Models.ViewModels.UsuarioViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Styles.Render("~/Content/css/Usuario/CadastroUsuario.css")
+@Scripts.Render("~/Scripts/Notas/Index.js")
+
+<div class="row">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 barra_superior">
+                <div class="btn btn-primary btn_notas" data-toggle="modal" data-target="#ModalAddUsuario">+</div>
+                <span>Clique no botão para adicionar um novo usuário</span>
+            </div>
+        </div>
+        <div class="row">
+            @if (Model != null)
+            {
+                if (Model.Count() == 0)
+                {
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sem_dados">
+                        Não existem dados a serem exibidos :(
+                    </div>
+                }
+                else
+                {
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayName("Editar")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Nome")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Matrícula")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Login")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Permissão")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Excluir")
+                                </th>
+                            </tr>
+                        </thead>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div onclick="EditarUsuario(@item.ID_USUARIO)" data-toggle="modal" data-target="#ModalEdtUsuario">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="edit" class="svg-inline--fa fa-edit fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"></path></svg>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.NOME)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.MATRICULA)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.LOGIN)
+                                </td>
+
+                                @if (item.ROLE == "ADM")
+                                {
+                                    <td>
+                                        Administrador
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td>
+                                        Usuário
+                                    </td>
+                                }
+                                <td>
+                                    <div onclick="ExcluirUsuario(@item.ID_USUARIO)">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="trash" class="svg-inline--fa fa-trash fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"></path></svg>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                }
+            }
+            else
+            {
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sem_dados">
+                    Não existem dados a serem exibidos :(
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ModalEdtUsuario" tabindex="-1" role="dialog" aria-labelledby="ModalEdtUsuario" aria-hidden="true">
+    <span class="edt"></span>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content editar">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">Alterar dados do usuário</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>Edite aqui do nome do usuário<span class="ehobrigatorio">*</span></label>
+                        <textarea class="form-control" id="nomeUsuEdt" rows="1"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Edite aqui o login do usuário<span class="ehobrigatorio">*</span></label>
+                        <textarea class="form-control" id="loginUsuEdt" rows="1"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Edite aqui a matricula do usuário<span class="ehobrigatorio">*</span></label>
+                        <textarea class="form-control" id="matriculaUsuEdt" rows="1"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Edite aqui a senha do usuário<span class="ehobrigatorio">*</span></label>
+                        <input type="password" class="form-control" id="sehhaUsuEdt" rows="1">
+                    </div>
+                </form>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" onclick="SalvarUsuarioEditado()">Salvar alterações</button>
+                    <button type="button" class="btn btn-danger" id="btnFechar" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ModalAddUsuario" tabindex="-1" role="dialog" aria-labelledby="ModalAddUsuario" aria-hidden="true">
+    <span class="edt"></span>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content editar">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">Adicionar novo usuário</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>Edite aqui do nome do usuário<span class="ehobrigatorio">*</span></label>
+                        <textarea class="form-control" id="nomeUsuAdd" rows="1"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Edite aqui o login do usuário<span class="ehobrigatorio">*</span></label>
+                        <textarea class="form-control" id="loginUsuAdd" rows="1"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Edite aqui a matricula do usuário<span class="ehobrigatorio">*</span></label>
+                        <textarea class="form-control" id="matriculaUsuAdd" rows="1"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Edite aqui a senha do usuário<span class="ehobrigatorio">*</span></label>
+                        <input type="password" class="form-control" id="sehhaUsuAdd" rows="1" />
+                    </div>
+
+                </form>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" onclick="SalvarUsuario()">Salvar</button>
+                    <button type="button" class="btn btn-danger" id="btnFechar" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

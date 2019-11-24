@@ -1,0 +1,53 @@
+﻿@model IEnumerable<OWRM_Work_Routine_Manager.Models.PontoViewModel>
+
+<link href="~/Content/css/Usuario/RelacaoDeUsuarios.css" rel="stylesheet" />
+<script src="~/Scripts/Usuario/RelacaoDeUsuarios.js"></script>
+
+<nav aria-label="breadcrumb" id="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="breadcrumb-item">Relação de pontos</li>
+    </ol>
+</nav>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayName("Ponto entrada")
+            </th>
+            <th>
+                @Html.DisplayName("Ponto entrada intervalo")
+
+            </th>
+            <th>
+                @Html.DisplayName("Ponto saída intervalo")
+            </th>
+            <th>
+                @Html.DisplayName("Ponto saída")
+            </th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PONTO_ENTRADA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PONTO_ENTRADA_INTERVALO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PONTO_SAIDA_INTERVALO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PONTO_SAIDA)
+            </td>
+            @*<td>
+                    @Html.ActionLink("Editar", "UpdateSkill", new { idFuncionario = item.IdFuncionario })
+                </td>*@
+        </tr>
+    }
+</table>

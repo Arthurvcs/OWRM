@@ -1,0 +1,28 @@
+﻿@model IEnumerable<OWRM_Work_Routine_Manager.Models.PontoViewModel>
+
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  id="dvData">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayName("Ponto de entrada")</th>
+                    <th>@Html.DisplayName("Ponto entrada intervalo")</th>
+                    <th>@Html.DisplayName("Ponto saída intervalo")</th>
+                    <th>@Html.DisplayName("Ponto saída")</th>
+                </tr>
+            </thead>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.PONTO_ENTRADA.Value.ToString("dd/MM/yyyy")</td>
+                    <td>@item.PONTO_ENTRADA_INTERVALO.Value.ToString("dd/MM/yyyy")</td>
+                    <td>@item.PONTO_SAIDA_INTERVALO.Value.ToString("dd/MM/yyyy")</td>
+                    <td>@item.PONTO_SAIDA.Value.ToString("dd/MM/yyyy")</td>
+
+                </tr>
+            }
+        </table>
+    </div>
+</div>

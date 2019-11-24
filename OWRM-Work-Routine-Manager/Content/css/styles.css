@@ -1,0 +1,28 @@
+﻿.header {
+    margin-top: 5%;
+    padding: 50px;
+}
+
+
+.header #logo {
+    width: 130px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.center #formulario {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    padding: 20px;
+    margin-top: 7%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 20px;
+}
+
+body {
+    background-color: #45969b;
+}
