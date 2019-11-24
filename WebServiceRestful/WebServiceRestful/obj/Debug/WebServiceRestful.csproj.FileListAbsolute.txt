@@ -1,0 +1,240 @@
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.dll.config
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.pdb
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.exe
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.exe.config
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.rsp
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\csi.exe
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\csi.rsp
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\System.AppContext.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.exe
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.exe.config
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.rsp
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\VBCSCompiler.exe
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\Antlr3.Runtime.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\EntityFramework.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\EntityFramework.SqlServer.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\Newtonsoft.Json.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Net.Http.Formatting.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Helpers.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.WebHost.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Mvc.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Optimization.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Razor.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Razor.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\WebGrease.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\EntityFramework.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\EntityFramework.SqlServer.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\Newtonsoft.Json.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Net.Http.Formatting.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Helpers.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.WebHost.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Mvc.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Optimization.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.Razor.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Razor.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\Antlr3.Runtime.pdb
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csprojAssemblyReference.cache
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.CoreCompileInputs.cache
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.CopyComplete
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.dll
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.pdb
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.Migrations.OWRModels.resources
+C:\Users\hugol\source\repos\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.GenerateResource.cache
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.dll.config
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.pdb
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.exe
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.exe.config
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.rsp
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\csi.exe
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\csi.rsp
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\System.AppContext.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.exe
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.exe.config
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.rsp
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\VBCSCompiler.exe
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\Antlr3.Runtime.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\EntityFramework.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\EntityFramework.SqlServer.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\Newtonsoft.Json.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Net.Http.Formatting.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Helpers.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.WebHost.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Mvc.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Optimization.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Razor.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Razor.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\WebGrease.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\EntityFramework.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\EntityFramework.SqlServer.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\Newtonsoft.Json.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Net.Http.Formatting.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Helpers.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.WebHost.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Mvc.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Optimization.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Razor.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Razor.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\Antlr3.Runtime.pdb
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csprojAssemblyReference.cache
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.Migrations.OWRModels.resources
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.GenerateResource.cache
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.CoreCompileInputs.cache
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.CopyComplete
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.pdb
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Cors.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.Cors.dll
+C:\Users\hugol\OneDrive\Área de Trabalho\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.Cors.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.dll.config
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\WebServiceRestful.pdb
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.exe
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.exe.config
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\csc.rsp
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\csi.exe
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\csi.rsp
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\System.AppContext.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.exe
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.exe.config
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\vbc.rsp
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\VBCSCompiler.exe
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\Antlr3.Runtime.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\EntityFramework.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\EntityFramework.SqlServer.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\Newtonsoft.Json.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Net.Http.Formatting.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Cors.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Helpers.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.Cors.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.WebHost.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Mvc.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Optimization.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Razor.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Razor.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\WebGrease.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\EntityFramework.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\EntityFramework.SqlServer.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.Cors.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\Newtonsoft.Json.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Net.Http.Formatting.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Helpers.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Http.WebHost.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Mvc.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Optimization.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.Razor.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\System.Web.WebPages.Razor.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\Antlr3.Runtime.pdb
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csprojAssemblyReference.cache
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.Migrations.OWRModels.resources
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.GenerateResource.cache
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.CoreCompileInputs.cache
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.csproj.CopyComplete
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.dll
+C:\Users\hugol\source\repos\OWRM_Work-Routine-Manager\WebServiceRestful\WebServiceRestful\obj\Debug\WebServiceRestful.pdb
