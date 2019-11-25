@@ -182,15 +182,17 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\NOTA.cs" />
-    <Compile Include="Models\NotasViewModel.cs" />
+    <Compile Include="Models\Params\ParamsUsuario.cs" />
+    <Compile Include="Models\ViewModels\UsuarioViewModel.cs" />
+    <Compile Include="Models\ViewModels\NotasViewModel.cs" />
     <Compile Include="Models\OWRModels.cs" />
-    <Compile Include="Models\ParamsNota.cs" />
-    <Compile Include="Models\ParamsTarefa.cs" />
+    <Compile Include="Models\Params\ParamsNota.cs" />
+    <Compile Include="Models\Params\ParamsTarefa.cs" />
     <Compile Include="Models\PONTO.cs" />
-    <Compile Include="Models\PontoViewModel.cs" />
+    <Compile Include="Models\ViewModels\PontoViewModel.cs" />
     <Compile Include="Models\ROLE.cs" />
     <Compile Include="Models\TAREFA.cs" />
-    <Compile Include="Models\TarefasViewModel.cs" />
+    <Compile Include="Models\ViewModels\TarefasViewModel.cs" />
     <Compile Include="Models\USUARIO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -8,7 +8,7 @@ namespace OWRM_Work_Routine_Manager.Models
     public partial class OWRModels : DbContext
     {
         public OWRModels()
-            : base("name=OWRModels")
+            : base("name=OWRModelsH")
         {
         }
 

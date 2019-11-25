@@ -3,7 +3,7 @@
 
     $.ajax({
         type: "GET",
-        url: 'GetUsuario',
+        url: 'https://localhost:44372/GetUsuario',
         async: false,
         data: {
             id_usuario: id
@@ -48,7 +48,7 @@ function SalvarUsuario() {
     else {
         $.ajax({
             type: "POST",
-            url: 'AddUsuario',
+            url: 'https://localhost:44372/AddUsuario',
             data: {
                 nome: nome,
                 matricula: matricua,
@@ -96,7 +96,7 @@ function ExcluirUsuario(id_usuario) {
         if (result.value) {
             $.ajax({
                 type: "POST",
-                url: 'DeletarUsuario',
+                url: 'https://localhost:44372/DeletarUsuario',
                 data: {
                     idUsuario: id_usuario
                 },
@@ -142,10 +142,10 @@ function SalvarUsuarioEditado(id_usuario) {
     else {
         $.ajax({
             type: "POST",
-            url: 'EditarUsuario',
+            url: 'https://localhost:44372/EditarUsuario',
             async: false,
             data: {
-                Id_usuario: id_usuario,
+                idUsuario: id_usuario,
                 nome: nome,
                 matricula: matricua,
                 login: login,

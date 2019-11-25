@@ -14,7 +14,7 @@
         if (result.value) {
             $.ajax({
                 type: "POST",
-                url: 'ExcluirTarefa',
+                url: 'https://localhost:44372/ExcluirTarefa',
                 data: {
                     idTarefa: id_tarefa
                 },
@@ -46,7 +46,7 @@
 function IniciarTarefa(id_tarefa) {
     $.ajax({
         type: "POST",
-        url: 'IniciarTarefa',
+        url: 'https://localhost:44372/IniciarTarefa',
         data: {
             idTarefa: id_tarefa
         },
@@ -76,7 +76,7 @@ function IniciarTarefa(id_tarefa) {
 function FinalizarTarefa(id_tarefa) {
     $.ajax({
         type: "POST",
-        url: 'PararTarefa',
+        url: 'https://localhost:44372/PararTarefa',
         data: {
             idTarefa: id_tarefa
         },
@@ -117,7 +117,7 @@ function AdicionarTarefa() {
     else {
         $.ajax({
             type: "POST",
-            url: 'AddTarefa',
+            url: 'https://localhost:44372/AddTarefa',
             data: {
                 titulo: titulo,
                 descricao: descricao
@@ -153,7 +153,7 @@ function EditarTarefa(id_tarefa) {
     var descricao;
     $.ajax({
         type: "GET",
-        url: 'ListarTarefas',
+        url: 'https://localhost:44372/ListarTarefas',
         async: false,
         data: {
             id_tarefa: id_tarefa
@@ -193,7 +193,7 @@ function SalvarTarefaEditada() {
     else {
         $.ajax({
             type: "POST",
-            url: 'SalvarTarefa',
+            url: 'https://localhost:44372/SalvarTarefa',
             async: false,
             data: {
                 idTarefa: id,

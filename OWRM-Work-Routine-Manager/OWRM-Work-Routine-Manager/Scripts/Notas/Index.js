@@ -32,7 +32,7 @@ function SalvarNota() {
     else {
         $.ajax({
             type: "POST",
-            url: 'AddNota',
+            url: 'https://localhost:44372/AddNota',
             data: {
                 titulo: titulo,
                 descricao: descricao,
@@ -79,7 +79,7 @@ function ExcluirNota(id_nota) {
         if (result.value) {
             $.ajax({
                 type: "POST",
-                url: 'ExcluirNota',
+                url: 'https://localhost:44372/ExcluirNota',
                 data: {
                     idNota: id_nota
                 },
@@ -112,7 +112,7 @@ function EditarNota(id_nota) {
 
     $.ajax({
         type: "GET",
-        url: 'ListarNotas',
+        url: 'https://localhost:44372/ListarNotas',
         async: false,
         data: {
             IdNota: id_nota
@@ -155,10 +155,10 @@ function SalvarNotaEditada() {
     else {
         $.ajax({
             type: "POST",
-            url: 'SalvarNota',
+            url: 'https://localhost:44372/SalvarNota',
             async: false,
             data: {
-                idnota: id,
+                idNota: id,
                 titulo: titulo,
                 descricao: descricao,
                 cor: cor

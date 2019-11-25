@@ -234,7 +234,7 @@ namespace WebServiceRestful.Controllers
             return Json(query);
         }
 
-        [HttpGet]
+        [HttpGet, Route("ListarTarefas")]
         public IHttpActionResult ListarTarefas(int id_tarefa)
         {
             var query =

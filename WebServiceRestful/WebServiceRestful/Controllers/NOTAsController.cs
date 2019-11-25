@@ -124,9 +124,12 @@ namespace WebServiceRestful.Controllers
             return Json(query);
         }
 
-        [HttpGet]
+        [HttpGet, Route("ListarNotas")]
         public IHttpActionResult ListarNotas(int IdNota)
         {
+            var cookie = Request.Headers.GetCookies("Usuario").FirstOrDefault();
+             int id_usuario = int.Parse(cookie["Usuario"].Value);
+
             var query =
                 (from T in db.NOTA
                  where T.ID_NOTA == IdNota
