@@ -13,6 +13,7 @@ namespace WebServiceRestful.Models
 
         public string descricao { get; set; }
 
+        public int u { get; set; }
 
     }
 }

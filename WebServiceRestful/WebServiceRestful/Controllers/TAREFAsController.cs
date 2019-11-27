@@ -114,6 +114,7 @@ namespace WebServiceRestful.Controllers
 
             tarefa.DESCRICAO = paramsTarefa.descricao;
             tarefa.TITULO = paramsTarefa.titulo;
+            tarefa.ID_USUARIO = paramsTarefa.u;
 
             try
             {
@@ -133,7 +134,7 @@ namespace WebServiceRestful.Controllers
         public IHttpActionResult IniciarTarefa([FromBody] ParamsTarefa paramsTarefa)
         {
 
-            TAREFA item = db.TAREFA.First(i => i.ID_TAREFA == paramsTarefa.idTarefa);
+            TAREFA item = db.TAREFA.First(i => i.ID_TAREFA == paramsTarefa.idTarefa && i.ID_USUARIO == paramsTarefa.u);
             item.DATA_INICIO = DateTime.Now;
             string retorno = "";
 
@@ -155,7 +156,7 @@ namespace WebServiceRestful.Controllers
         public IHttpActionResult SalvarTarefa( [FromBody] ParamsTarefa paramsTarefa)
         {
 
-            TAREFA item = db.TAREFA.First(i => i.ID_TAREFA == paramsTarefa.idTarefa);
+            TAREFA item = db.TAREFA.First(i => i.ID_TAREFA == paramsTarefa.idTarefa && i.ID_USUARIO == paramsTarefa.u);
             item.DESCRICAO = paramsTarefa.descricao;
             item.TITULO = paramsTarefa.titulo;
             string retorno = "";
@@ -177,7 +178,7 @@ namespace WebServiceRestful.Controllers
         [HttpPost, Route("PararTarefa")]
         public IHttpActionResult PararTarefa([FromBody] ParamsTarefa paramsTarefa)
         {
-            TAREFA item = db.TAREFA.First(i => i.ID_TAREFA == paramsTarefa.idTarefa);
+            TAREFA item = db.TAREFA.First(i => i.ID_TAREFA == paramsTarefa.idTarefa && i.ID_USUARIO == paramsTarefa.u);
             item.DATA_FIM = DateTime.Now;
             string retorno = "";
 
@@ -190,7 +191,7 @@ namespace WebServiceRestful.Controllers
             }
             catch (Exception)
             {
-                retorno = "Ops, algo deu errado ao finzalizar sua tarefa !";
+                retorno = "Ops, algo deu errado ao finalizar sua tarefa !";
             }
             return Json(retorno);
 
@@ -199,7 +200,7 @@ namespace WebServiceRestful.Controllers
         [HttpPost, Route("ExcluirTarefa")]
         public IHttpActionResult ExcluirTarefa([FromBody] ParamsTarefa paramsTarefa)
         {
-            TAREFA item = db.TAREFA.First(i => i.ID_TAREFA == paramsTarefa.idTarefa);
+            TAREFA item = db.TAREFA.First(i => i.ID_TAREFA == paramsTarefa.idTarefa && i.ID_USUARIO == paramsTarefa.u);
             string retorno = "";
 
             try
@@ -234,17 +235,20 @@ namespace WebServiceRestful.Controllers
             return Json(query);
         }
 
-        [HttpGet, Route("ListarTarefas")]
-        public IHttpActionResult ListarTarefas(int id_tarefa)
+        [HttpPost, Route("ListarTarefas")]
+        public IHttpActionResult ListarTarefas([FromBody] ParamsTarefa paramsTarefa)
         {
             var query =
                 (from T in db.TAREFA
-                 where T.ID_TAREFA == id_tarefa
-                 select new
+                 where T.ID_TAREFA == paramsTarefa.idTarefa
+                  && T.ID_USUARIO == paramsTarefa.u
+                 select new TarefasViewModel()
                  {
-                     T.ID_TAREFA,
-                     T.DESCRICAO,
-                     T.TITULO
+                     DATA_INICIO = T.DATA_INICIO,
+                     DATA_FIM = T.DATA_FIM,
+                     ID_TAREFA = T.ID_TAREFA,
+                     DESCRICAO = T.DESCRICAO,
+                     TITULO = T.TITULO
 
                  }).First();
 

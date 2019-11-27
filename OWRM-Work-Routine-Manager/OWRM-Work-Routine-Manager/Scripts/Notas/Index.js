@@ -16,7 +16,7 @@ function hex(x) {
     return isNaN(x) ? "00" : hexDigits[(x - x % 16) / 16] + hexDigits[x % 16];
 }
 
-function SalvarNota() {
+function SalvarNota(user) {
     var titulo = $('#tituloNota').val();
     var descricao = $('#descricaoNota').val();
     var rgb = $('.adicionar').css("background-color");
@@ -36,7 +36,8 @@ function SalvarNota() {
             data: {
                 titulo: titulo,
                 descricao: descricao,
-                cor: cor
+                cor: cor,
+                u: user
             },
             dataType: "JSON",
             success: function (result) {
@@ -63,7 +64,7 @@ function SalvarNota() {
         });
     }
 }
-function ExcluirNota(id_nota) {
+function ExcluirNota(id_nota,user) {
 
     Swal.fire({
         title: 'Você tem certeza?',
@@ -81,7 +82,8 @@ function ExcluirNota(id_nota) {
                 type: "POST",
                 url: 'https://localhost:44372/ExcluirNota',
                 data: {
-                    idNota: id_nota
+                    idNota: id_nota,
+                    u: user
                 },
                 dataType: "JSON",
                 success: function (result) {
@@ -107,15 +109,16 @@ function ExcluirNota(id_nota) {
         }
     });
 }
-function EditarNota(id_nota) {
+function EditarNota(id_nota, user) {
     var titulo, descricao, cor;
 
     $.ajax({
-        type: "GET",
+        type: "POST",
         url: 'https://localhost:44372/ListarNotas',
         async: false,
         data: {
-            IdNota: id_nota
+            idNota: id_nota,
+            u: user
         },
         dataType: "JSON",
         success: function (result) {
@@ -138,7 +141,7 @@ function EditarNota(id_nota) {
     $('.edt').attr('id', id_nota);
 }
 
-function SalvarNotaEditada() {
+function SalvarNotaEditada(user) {
     var titulo = $('#tituloNotaEdt').val();
     var descricao = $('#descricaoNotaEdt').val();
     var id = $('.edt').attr('id');
@@ -161,7 +164,8 @@ function SalvarNotaEditada() {
                 idNota: id,
                 titulo: titulo,
                 descricao: descricao,
-                cor: cor
+                cor: cor,
+                u: user
             },
             dataType: "JSON",
             success: function (result) {

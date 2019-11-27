@@ -16,5 +16,7 @@ namespace WebServiceRestful.Models
 
         public string cor { get; set; }
 
+
+        public int u { get; set; }
     }
 }

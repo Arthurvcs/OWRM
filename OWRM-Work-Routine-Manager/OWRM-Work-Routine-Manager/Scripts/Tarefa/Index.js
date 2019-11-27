@@ -1,4 +1,4 @@
-﻿function excluirTarefa(id_tarefa) {
+﻿function excluirTarefa(id_tarefa,user) {
 
     Swal.fire({
         title: 'Você tem certeza?',
@@ -16,7 +16,8 @@
                 type: "POST",
                 url: 'https://localhost:44372/ExcluirTarefa',
                 data: {
-                    idTarefa: id_tarefa
+                    idTarefa: id_tarefa,
+                    u: user
                 },
                 dataType: "JSON",
                 success: function (result) {
@@ -43,12 +44,13 @@
     });
 }
 
-function IniciarTarefa(id_tarefa) {
+function IniciarTarefa(id_tarefa,user) {
     $.ajax({
         type: "POST",
         url: 'https://localhost:44372/IniciarTarefa',
         data: {
-            idTarefa: id_tarefa
+            idTarefa: id_tarefa,
+            u: user
         },
         dataType: "JSON",
         success: function (result) {
@@ -73,12 +75,13 @@ function IniciarTarefa(id_tarefa) {
     });
 
 }
-function FinalizarTarefa(id_tarefa) {
+function FinalizarTarefa(id_tarefa,user) {
     $.ajax({
         type: "POST",
         url: 'https://localhost:44372/PararTarefa',
         data: {
-            idTarefa: id_tarefa
+            idTarefa: id_tarefa,
+            u: user
         },
         dataType: "JSON",
         success: function (result) {
@@ -103,7 +106,7 @@ function FinalizarTarefa(id_tarefa) {
     });
 
 }
-function AdicionarTarefa() {
+function AdicionarTarefa(user) {
     var titulo = $('#tituloTarefa').val();
     var descricao = $('#descricaoTarefa').val();
 
@@ -120,7 +123,8 @@ function AdicionarTarefa() {
             url: 'https://localhost:44372/AddTarefa',
             data: {
                 titulo: titulo,
-                descricao: descricao
+                descricao: descricao,
+                u: user
             },
             dataType: "JSON",
             success: function (result) {
@@ -148,15 +152,16 @@ function AdicionarTarefa() {
     }
 }
 
-function EditarTarefa(id_tarefa) {
+function EditarTarefa(id_tarefa,user) {
     var titulo;
     var descricao;
     $.ajax({
-        type: "GET",
+        type: "POST",
         url: 'https://localhost:44372/ListarTarefas',
         async: false,
         data: {
-            id_tarefa: id_tarefa
+            idTarefa: id_tarefa,
+            u: user
         },
         dataType: "JSON",
         success: function (result) {
@@ -177,7 +182,7 @@ function EditarTarefa(id_tarefa) {
 
 }
 
-function SalvarTarefaEditada() {
+function SalvarTarefaEditada(user) {
     var titulo = $('#tituloTarefaEdt').val();
     var descricao = $('#descricaoTarefaEdt').val();
     var id = $('.edt').attr('id');
@@ -198,7 +203,8 @@ function SalvarTarefaEditada() {
             data: {
                 idTarefa: id,
                 titulo: titulo,
-                descricao: descricao
+                descricao: descricao,
+                u: user
             },
             dataType: "JSON",
             success: function (result) {

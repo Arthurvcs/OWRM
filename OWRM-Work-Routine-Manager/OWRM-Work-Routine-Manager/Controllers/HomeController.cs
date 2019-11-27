@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using OWRM_Work_Routine_Manager.Models;
-
+using OWRM_Work_Routine_Manager.Models.ViewModels;
 
 namespace OWRM_Work_Routine_Manager.Controllers
 {
@@ -62,6 +62,7 @@ namespace OWRM_Work_Routine_Manager.Controllers
                 else
                 {
                     FormsAuthentication.SetAuthCookie(role.ToString(), false);
+                    Session["UsuarioLogado"] = dataItem.ID_USUARIO;
                     return RedirectToAction("Index");
                 }
             }
@@ -71,11 +72,26 @@ namespace OWRM_Work_Routine_Manager.Controllers
                 return View();
             }
         }
+
+        public JsonResult GetUsuarioLogado()
+        {
+            int u = 0;
+
+            if(Session["UsuarioLogado"] != null)
+            {
+                u = int.Parse(Session["UsuarioLogado"].ToString());
+            }
+
+            return Json(u, JsonRequestBehavior.AllowGet);
+        }
+
+
         [Authorize(Users = "ADM,USU")]
         public ActionResult Sobre()
         {
             return View();
         }
+
         [Authorize(Users = "ADM,USU")]
         public ActionResult NoData()
         {

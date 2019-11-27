@@ -124,15 +124,14 @@ namespace WebServiceRestful.Controllers
             return Json(query);
         }
 
-        [HttpGet, Route("ListarNotas")]
-        public IHttpActionResult ListarNotas(int IdNota)
+        [HttpPost, Route("ListarNotas")]
+        public IHttpActionResult ListarNotas([FromBody] ParamsNota paramsNota)
         {
-            var cookie = Request.Headers.GetCookies("Usuario").FirstOrDefault();
-             int id_usuario = int.Parse(cookie["Usuario"].Value);
 
             var query =
                 (from T in db.NOTA
-                 where T.ID_NOTA == IdNota
+                 where T.ID_NOTA == paramsNota.idNota
+                 && T.ID_USUARIO == paramsNota.u
                  select new
                  {
                      T.ID_NOTA,
@@ -156,6 +155,7 @@ namespace WebServiceRestful.Controllers
             nota.DESCRICAO = paramsNota.descricao;
             nota.DATA = data;
             nota.COR = paramsNota.cor;
+            nota.ID_USUARIO = paramsNota.u;
 
             try
             {
@@ -173,7 +173,7 @@ namespace WebServiceRestful.Controllers
         [HttpPost, Route("ExcluirNota")]
         public IHttpActionResult ExcluirNota([FromBody] ParamsNota paramsNota)
         {
-            NOTA item = db.NOTA.First(i => i.ID_NOTA == paramsNota.idNota);
+            NOTA item = db.NOTA.First(i => i.ID_NOTA == paramsNota.idNota && i.ID_USUARIO == paramsNota.u);
             string retorno = "";
 
             try
@@ -193,7 +193,7 @@ namespace WebServiceRestful.Controllers
         [HttpPost,Route("SalvarNota")]
         public IHttpActionResult SalvarNota([FromBody] ParamsNota paramsNota)
         {
-            NOTA item = db.NOTA.First(i => i.ID_NOTA == paramsNota.idNota);
+            NOTA item = db.NOTA.First(i => i.ID_NOTA == paramsNota.idNota && i.ID_USUARIO == paramsNota.u);
             item.DESCRICAO = paramsNota.descricao;
             item.TITULO = paramsNota.titulo;
             item.COR = paramsNota.cor;
@@ -208,7 +208,7 @@ namespace WebServiceRestful.Controllers
             }
             catch (Exception)
             {
-                retorno = "Ops, algo deu errado!";
+                retorno = "Ops, algo deu errado ao salvar sua nota!";
             }
             return Json(retorno);
         }
