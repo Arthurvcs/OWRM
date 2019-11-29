@@ -62,7 +62,8 @@
     @RenderSection("scripts", required: false)
 
     <script>
-        var usuarioLogado = @Html.Raw(((int)Session["UsuarioLogado"]))
+        // as vezes a sessão pode expirar, para isso, reinicie a aplicação.
+        var usuarioLogado = @Html.Raw(((int?)Session["UsuarioLogado"]))
     </script>
 
 
